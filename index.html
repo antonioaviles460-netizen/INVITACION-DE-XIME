@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis XV Años | Ximena Avila</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+
+    <button id="music-toggle" class="music-toggle-btn">
+        <i class="fas fa-volume-up"></i>
+    </button>
+    <audio id="background-music" loop preload="auto">
+        <source src="musica-fondo.mp3" type="audio/mp3">
+    </audio>
+
+    <div id="welcome-screen">
+        <div class="welcome-content">
+            <h1>Mis XV Años</h1>
+            <h2>Te invito a celebrar conmigo</h2>
+            <p class="quince-name">Ximena Avila</p>
+            <button class="cta-button" id="enter-button">
+                Toca para Entrar <i class="fas fa-arrow-right"></i>
+            </button>
+        </div>
+    </div>
+
+    <main class="invitation-content hidden">
+        
+        <section class="hero animate-on-scroll">
+            <div class="hero-text">
+                <h2>Llega el día</h2>
+                <h1>Ximena Avila</h1>
+            </div>
+            <div id="countdown">
+                <div><span id="days">00</span>Días</div>
+                <div><span id="hours">00</span>Horas</div>
+                <div><span id="minutes">00</span>Minutos</div>
+                <div><span id="seconds">00</span>Segundos</div>
+            </div>
+        </section>
+
+        <section class="section message-section animate-on-scroll">
+            <h2 class="section-title">La Alegría de Mis XV</h2>
+            <p class="section-text">Con la bendición de Dios y el amor de mis padres, ha llegado el día de celebrar mis quince años. Quiero compartir este momento tan especial con las personas que más amo, tú eres una de ellas.</p>
+        </section>
+
+        <section class="section parents-section animate-on-scroll">
+            <h2 class="section-title">Nuestros Padres</h2>
+            <div class="parents-list">
+                <p><strong>Padre:</strong> [Nombre del Padre]</p>
+                <p><strong>Madre:</strong> [Maria Yuriria Avila Jimenez]</p>
+                <p class="mt-4"><strong>Padrinos:</strong> [Nombre del Padrino] y [Nombre de la Madrina]</p>
+            </div>
+        </section>
+
+        <section class="section events-section animate-on-scroll">
+            <h2 class="section-title">Itinerario y Ubicación</h2>
+            
+            <h3 class="event-title">Misa de Acción de Gracias</h3>
+            <p class="event-info">Sábado, 20 de Diciembre de 2025 | [Hora de la Misa]</p>
+            <p class="event-info strong-place"><strong>[Nombre de la Iglesia]</strong></p>
+            
+            <div class="map-embed-container">
+                <iframe src="[https://maps.app.goo.gl/E8Fn6z82sezFBv667]" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <a href="https://www.google.com/maps/place/Iglesia+de+Dios+de+la+Profecia/@31.7218105,-106.5156624,18z/data=!4m6!3m5!1s0x86e758b4557f32f9:0x4b27be4fea6ce87f!8m2!3d31.7218089!4d-106.5144313!16s%2Fg%2F11clztt07c?entry=ttu&g_ep=EgoyMDI1MTExMS4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="map-button nav-button">Ver Ruta a la Iglesia <i class="fas fa-route"></i></a>
+            
+            <hr class="separator">
+
+            <h3 class="event-title">Recepción</h3>
+            <p class="event-info">Al término de la misa | [Hora de inicio de la Fiesta]</p>
+            <p class="event-info strong-place"><strong>[Nombre del Salón de Eventos]</strong></p>
+            
+            <div class="map-embed-container">
+                <iframe src="[CÓDIGO IFRAME DE GOOGLE MAPS PARA EL SALÓN]" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <a href="https://www.google.com/intl/es-419/maps/about/partners/indoormaps/" target="_blank" class="map-button nav-button">Ver Ruta al Salón <i class="fas fa-route"></i></a>
+
+        </section>
+
+        <section class="section gallery-section animate-on-scroll">
+            <h2 class="section-title">Galería de Momentos</h2>
+            <div class="photo-grid">
+                <img src="IMG/foto1.png" alt="Foto 1 de Quinceañera">
+                <img src="foto2.jpg" alt="Foto 2 de Quinceañera">
+                <img src="foto3.jpg" alt="Foto 3 de Quinceañera">
+                <img src="foto4.jpg" alt="Foto 4 de Quinceañera">
+            </div>
+        </section>
+        
+        <section class="section info-section animate-on-scroll">
+            <h2 class="section-title">Información Adicional</h2>
+            
+            <div class="info-item">
+                <i class="fas fa-tshirt icon-info"></i>
+                <h3 class="event-title">Vestimenta</h3>
+                <p class="section-text-small"><strong>Formal o de Gala.</strong> Te pedimos asistir con tu mejor atuendo para celebrar esta gran noche.</p>
+            </div>
+            
+            <div class="info-item mt-4">
+                <i class="fas fa-gift icon-info"></i>
+                <h3 class="event-title">Mesa de Regalos</h3>
+                <p class="section-text-small">El mejor regalo es tu presencia. Si deseas hacerme un obsequio, puedes hacerlo en efectivo o por transferencia bancaria.</p>
+                <p class="section-text-small mt-2">¡Gracias por tu apoyo!</p>
+            </div>
+        </section>
+
+        <section class="section rsvp-section animate-on-scroll">
+            <h2 class="section-title">¡Confirma tu Asistencia!</h2>
+            <div class="pass-note">
+                <p>Al confirmar se descargará tu <strong>Pase Digital</strong> y se abrirá WhatsApp para enviarnos el aviso.</p>
+            </div>
+            <button id="open-modal-button" class="cta-button primary-cta">Confirmar Asistencia <i class="fas fa-check-circle"></i></button>
+        </section>
+        
+    </main>
+
+    <div id="rsvp-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3>Confirmación de RSVP</h3>
+            
+            <form id="rsvp-form">
+                <label for="guest-name">Nombre del Invitado Principal:</label>
+                <input type="text" id="guest-name" required placeholder="Ej: Diana Pérez">
+
+                <label for="guest-count">Número Total de Personas (incluyéndote):</label>
+                <input type="number" id="guest-count" value="1" min="1" max="10" required>
+                
+                <button type="submit" class="cta-button" style="margin-top: 30px;">Enviar y Descargar Pase</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>
